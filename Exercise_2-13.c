@@ -9,9 +9,9 @@ int main()
     printf("\nEnter second point(x2 y2): ");
     scanf("%d%d", &x2, &y2);
     x=x2-x1;
-    x=x*x;
+    x=pow(x,2);
     y=y2-y1;
-    y=y*y;
+    y=pow(y,2);
     D=x+y;
     D=sqrt(D);
     printf("\nDistance= %f", D);
